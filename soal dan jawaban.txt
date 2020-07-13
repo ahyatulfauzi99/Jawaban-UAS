@@ -1,0 +1,50 @@
+==================
+Nama : Ahyatul Fauzi
+NIM  : 311710387
+Matkul : Arsitektu dan organisasi Komputer
+Kelas : TI.17.D3
+Universitas Pelita Bangsa
+2020
+================
+
+
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+   jawab : 1. Arithmetic and Logic Unit (ALU)
+	      untuk membentuk berbagai fungsi pengolahan data komputer. 
+	   2. Control Unit
+	      Control Unit atau Unit Kendali, mempunyai tugas utama untuk mengendalikan operasi dalam CPU dan juga mengontrol komputer secara keseluruhan untuk menciptakan sebuah sinkronisasi kerja antar komponen dalam melakukan fungsinya masing-masing. Di samping itu, control unit juga bertugas untuk mengambil instruksi-instruksi dari memori utama dan menentukan jenis instruksi tersebut.
+	   3. Registers [Top Level Memory]
+		1) Media penyimpanan internal CPU yang digunakan saat proses pengolahan data.
+		2) Memori ini bersifat sementara, biasanya digunakan untuk menyimpan data saat diolah ataupun data untuk pengolahan selanjutnya.
+	   4. CPU Interconections
+	      CPU Interconnections merupakan sistem koneksi dan bus yang menghubungkan komponen internal CPU dengan bus-bus eksternal CPU.
+
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+   jawab : 1.Single-Cycle CU
+	   2.Multi-Cycle CU
+
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh sebuah
+CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+   Jawab : 1.Data Processing (Pengolahan Data) adalah : instruksi-instruksi aritmetika dan logika. Instruksi aritmetika memiliki kemampuan untuk mengolah data numeric, sedangkan instruksi logika beroperasi pada bit-bit word sebagai bit bukan sebagai bilangan. Operasi-operasi tersebut dilakukan terutama untuk data di register CPU.
+	   2.Data Storage (Penyimpanan Data) adalah : instruksi-instruksi memori. Instruksi-instruksi memori diperlukan untuk memindah data yang terdapat di memori dan register.
+	   3.Data Movement (Perpindahan Data) adalah : instruksi I/O. Instruksi-instruksi I/O diperlukan untuk memindahkan program dan data ke dalam memori dan mengembalikan hasil komputansi kepada pengguna.
+	   4.Control (Kontrol) adalah : instruksi pemeriksaan dan percabangan. Instruksi-instruksi control digunakan untuk memeriksa nilai data, status komputansi dan mencabangkan ke set instruksi lain.
+
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+   Jawab : 1.Operasinya yang multitasking seperti UNIX.
+ 	   2.menghemat sumber daya CPU seingga CPU dapat melakukan pekerjaan lain.
+	   3.Dapat menirukan sebagian fungsi processor.
+	   4.Dapat mengambil alih fungsi prosesor yang berhubungan dengan transfer data
+	   5.Mendapat informasi tentang jumlah data bit yang ditransfer, alamat dari device dan memory yang diperlukan dan arah dari aliran data.
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama,
+namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+   Jawab : 1.Static atau Dynamic
+             Ketika instruksi-instruksi yang berjenis sama akan dijalankan secara bersamaan waktunya, maka digunakan pipeline statis. Pipeline ini dapat berupa pipeline fungsional maupun multifungsional tetapi mungkin mengasumsikan hanya satu konfigurasi fungsional pada suatu waktu. Suatu pipeline multifungsi statis dapat bekerja paling baik jika fungsi yang akan dijalankan tidak sering berubah. Antara perubahan, pipeline terlihat sebagai pipeline unifungsi dan mengulangi operasi yang sama berulang-ulang. Sebelum mengganti fungsi tersebut, kelompok input terakhir dari fungsi sebelumnya harus benar-benar telah melewati pipeline. Kemudian pipeline dikonfigurasikan untuk fungsi yang baru dan input yang baru boleh masuk ke dalam pipe. Dengan pipeline dinamis, beberapa konfigurasi fungsional dapat muncul sekaligus. Hal ini berarti harus digunakan sebuah pipeline multifungsional. Dalam kasus ini, konfigurasi pipe berubah-ubah secara konstan, tergantung pada data mana untuk fungsi yang mana pada stage yang mana 
+	     untuk setiap penangguhan clock. Pipeline dinamis memerlukan kendali yang sangat kompleks dan mekanisme perangkat untuk mengkonfigurasikan pipe bagi input-input tertentu. Untuk alasan ini, pipelining aktual tidak berada di bawah kendali programmer melainkan dibangun kedalam arsitektur mesin tersebut.
+	   2.Skalar atau Vector
+             Suatu pipeline skalar memproses serangkaian operasi skalar pada operand skalar. Salah satu  contoh berupa operasi ADD dalam loop FOR. Pipeline vector dirancang untuk memproses instruksi vektor dengan menggunakan operand vektor.
